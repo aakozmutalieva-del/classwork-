@@ -1,0 +1,335 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Document</title>
+  </head>
+  <body class="bg-neutral-100 min-h-screen">
+    <div
+      class="bg-white h-20 w-full flex items-center justify-between p-5 border-b-1 border-t-1 border-black sticky top-0 z-50"
+    >
+      <div class="flex items-center gap-2">
+        <img src="image.png" alt="" class="h-8 w-auto" />
+        <div
+          class="flex rounded-full border-black border-1 items-center gap-1 p-1"
+        >
+          <img src="Home.jpeg" alt="" class="h-5 w-auto" />
+          <h5>9K</h5>
+          <img src="Black Star-Photoroom.png" alt="" class="h-5 w-auto" />
+        </div>
+      </div>
+
+      <nav
+        id="main-nav"
+        class="hidden md:flex items-center gap-5 bg-white max-md:absolute max-md:top-20 max-md:left-0 max-md:w-full max-md:flex-col max-md:p-10 max-md:border-b-1 max-md:border-black"
+      >
+        <h2>Discover</h2>
+        <h2>Blog</h2>
+        <h2>Pricing</h2>
+        <h2>Features</h2>
+        <h2 class="bg-black rounded-3xl px-3 py-2 text-white">About</h2>
+        <h2>Careers</h2>
+        <div class="flex items-center max-md:flex-col max-md:w-full">
+          <button class="h-20 w-25 border-1 border-black p-5 max-md:w-full">
+            Log in
+          </button>
+          <button
+            class="bg-black h-20 w-25 text-white -mr-5 max-md:w-full max-md:mr-0"
+          >
+            Start selling
+          </button>
+        </div>
+      </nav>
+
+      <div class="md:hidden">
+        <button id="burger-btn" class="p-2 border-1 border-black rounded-lg">
+          <img
+            id="burger-img"
+            src="https://img.icons8.com/sf-regular/1200/menu.jpg"
+            width="30"
+            height="30"
+          />
+        </button>
+      </div>
+    </div>
+    <div
+      class="h-[600px] flex flex-col justify-center items-center text-center gap-5"
+    >
+      <h1 class="text-8xl">Go from 0 to $1</h1>
+      <h4 class="font-medium text-2xl">
+        Anyone can earn their first dollar online. Just start with what you
+        know,<br />
+        see what sticks, and get paid. It's that easy.
+      </h4>
+      <div class="flex gap-3 items-center">
+        <button class="p-3 px-5 bg-black text-white">Start selling</button>
+        <div class="flex items-center border-black border-1 gap-5">
+          <input type="text" placeholder="Search marketplace..." class="p-3" />
+          <img src="search.png" alt="" class="h-5 w-auto pr-3" />
+        </div>
+      </div>
+      <h6 class="flex items-center gap-3 text-gray-400">
+        Contribute or fork on
+        <a href="#" class="flex items-center hover:underline hover:text-black"
+          ><img src="Home.jpeg" alt="" class="h-5 w-5" />GitHub</a
+        >
+      </h6>
+    </div>
+    <div class="grid grid-cols-8 grid-rows-3 h-[1500px] px-70 gap-5">
+      <div
+        class="col-start-1 col-end-6 row-start-1 row-end-2 bg-white border-black border-1 rounded-xl flex"
+      >
+        <div class="flex flex-col justify-between h-full p-5">
+          <h4 class="text-3xl font-medium">Sell anything</h4>
+          <h6 class="text-xl font-medium">
+            Video lessons. Monthly subscriptions. <br />
+            Whatever! Gumroad was created to help you <br />
+            experiment with all kinds of ideas and <br />
+            formats.
+          </h6>
+        </div>
+        <img src="image copy.png" alt="" />
+      </div>
+      <div
+        class="col-start-6 col-end-9 row-start-1 row-end-2 bg-white border-black border-1 rounded-xl flex flex-col gap-5 overflow-hidden"
+      >
+        <div class="flex flex-col gap-5 p-5">
+          <h4 class="text-3xl font-medium">Make your <br />own road</h4>
+          <h6 class="text-xl font-medium">
+            Whether you need more balance, <br />flexibility, or just a
+            different gig, we <br />make it easy to chart a new path.
+          </h6>
+        </div>
+        <img src="image copy 2.png" alt="" class="w-[90%]" />
+      </div>
+      <div
+        class="col-start-1 col-end-4 row-start-2 row-end-3 bg-white border-black border-1 rounded-xl p-5 flex flex-col justify-between"
+      >
+        <h4 class="text-3xl font-medium">Sell to anyone</h4>
+        <div class="pl-5 flex- flex-col gap-10">
+          <li class="text-xl font-medium">
+            Go from 0 to $1 and <br />automated workflows.
+          </li>
+          <li class="text-xl font-medium">
+            Let your customers pay <br />in their own currency.
+          </li>
+          <li class="text-xl font-medium">
+            Choose between one- <br />time, recurring, or fixed- <br />length
+            payments in <br />
+            your currency of choice.
+          </li>
+        </div>
+      </div>
+      <div
+        class="col-start-4 col-end-9 row-start-2 row-end-3 bg-white border-black border-1 rounded-xl flex"
+      >
+        <div class="flex flex-col justify-between h-full p-5 w-1/2">
+          <h4 class="text-3xl font-medium">Sell anywhere</h4>
+          <h6 class="text-xl font-medium">
+            Create and customize your <br />storefront with our all-in-one
+            <br />platform or choose to use your <br />personal site instead.
+            Seamlessly <br />connect your Gumroad account to thousands of apps
+            in your current stack.
+          </h6>
+        </div>
+        <img
+          src="image copy 3.png"
+          alt=""
+          class="w-1/2 object-contain shrink-0"
+        />
+      </div>
+      <div
+        class="col-start-1 col-end-5 row-start-3 row-end-4 bg-white border-black border-1 rounded-xl flex justify-center items-center relative"
+      >
+        <h4
+          class="absolute top-10 left-10 bg-white p-3 rounded-lg border-1 border-black"
+        >
+          Instead of building a company...
+        </h4>
+        <img src="image copy 4.png" alt="" />
+      </div>
+      <div
+        class="col-start-5 col-end-9 row-start-3 row-end-4 bg-white border-black border-1 rounded-xl flex justify-center items-center relative"
+      >
+        <h4
+          class="absolute top-100 left-10 bg-white p-3 rounded-lg border-1 border-black"
+        >
+          ...start selling a side project!
+        </h4>
+        <img src="image copy 5.png" alt="" />
+      </div>
+    </div>
+    <div
+      class="h-screen px-70 gap-5 flex flex-col items-center mt-40 text-center"
+    >
+      <h4 class="text-5xl">You know all those great ideas you have?</h4>
+      <img src="image copy 6.png" alt="" />
+      <h5 class="text-5xl">
+        We want you to try them, lots of them, <br />and find out what works.
+      </h5>
+      <p class="font-medium text-xl">
+        You don't have to be a tech expert or even understand how to start a
+        <br />
+        business. You just gotta take what you know and sell it.
+      </p>
+      <button class="bg-black h-10 w-35 text-white">Find out how</button>
+    </div>
+    <div class="flex flex-col gap-10 items-center text-center">
+      <h1 class="text-9xl">$1,932,747</h1>
+      <h6 class="text-2xl">
+        The amount of income earned by <br />Gumroad digital entrepreneurs last
+        week.
+      </h6>
+      <div class="px-70 gap-5 grid grid-cols-2 grid-rows-2 justify-start">
+        <div class="text-start flex flex-col gap-3 items-start">
+          <h5 class="bg-white border-1 border-black p-5 rounded-xl">
+            I launched MaxPacks as an experimental side gig; but <br />within 2
+            years those Procreate brushes were earning <br />more than my
+            6-figure salary in CG. Leaving in favor of <br />Gumroad enabled me
+            to explore other aspects of my <br />art, develop new hobbies, and
+            finally prioritize my <br />personal life.
+          </h5>
+          <div class="flex items-center gap-3">
+            <img src="image copy 7.png" alt="" class="h-10 w-auto" />
+            <div class="">
+              <h5 class="font-medium">Max Ulichney</h5>
+              <span>Sells Procreate brush packs</span>
+            </div>
+          </div>
+        </div>
+        <div class="text-start flex flex-col gap-3">
+          <h5 class="bg-white border-1 border-black p-5 rounded-xl">
+            For years, I had a goal to develop 'passive' income <br />streams,
+            but struggled to make that a reality. Last year, <br />I started
+            selling informational products on Gumroad <br />and since then have
+            made $10k+ per month building <br />products that I love.
+          </h5>
+          <div class="flex items-center gap-3">
+            <img src="image copy 8.png" alt="" class="h-10 w-auto" />
+            <div class="">
+              <h5 class="font-medium">Steph Smith</h5>
+              <span>Sells content tutorials</span>
+            </div>
+          </div>
+        </div>
+        <div class="text-start flex flex-col gap-3">
+          <h5 class="bg-white border-1 border-black p-5 rounded-xl">
+            Originally, I took pre-orders for my Trend Reports on <br />Gumroad.
+            But I received... exactly $0. So I changed <br />tactics: I made
+            half of my report free, and the other <br />half paid. Today, 99% of
+            Trends.VC revenue is <br />recurring in the form of annual and
+            quarterly <br />subscriptions.
+          </h5>
+          <div class="flex items-center gap-3">
+            <img src="image copy 9.png" alt="" class="h-10 w-auto" />
+            <div class="">
+              <h5 class="font-medium">trendsvc</h5>
+              <span> trendsvc Sells business insights and expertise </span>
+            </div>
+          </div>
+        </div>
+        <div class="text-start flex flex-col gap-3">
+          <h5 class="bg-white border-1 border-black p-5 rounded-xl">
+            I love Gumroad because it can't be any simpler. I <br />upload a
+            file, set a price, and I can start selling on the <br />internet.
+            The money I make from my sales lands <br />directly in my bank
+            account every Friday.
+          </h5>
+          <div class="flex items-center gap-3">
+            <img src="image copy 10.png" alt="" class="h-10 w-auto" />
+            <div class="">
+              <h5 class="font-medium">Daniel Vassallo</h5>
+              <span> Sells business insights and expertise</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="flex flex-col gap-5 items-center text-center mt-40">
+      <h1 class="text-7xl">Unlimited possibilities</h1>
+      <h6 class="text-2xl">
+        Discover the best-selling products and creators on Gumroad
+      </h6>
+      <div
+        class="grid grid-cols-2 grid-rows-4 text-start h-200 px-70 w-full gap-5"
+      >
+        <div class="col-start-1 col-end-2 row-start-1 row-end-2">
+          <h2 class="text-6xl bg-white border-black border-1 rounded-xl p-5">
+            Don't take risks. <br />
+            That's scary!
+          </h2>
+        </div>
+        <div
+          class="col-start-1 col-end-2 row-start-2 row-end-5 bg-white border-black border-1 rounded-xl flex justify-center items-center relative"
+        >
+          <h4
+            class="absolute top-10 left-10 bg-white p-3 rounded-lg border-1 border-black"
+          >
+            Instead of building a company...
+          </h4>
+          <img src="image copy 11.png" alt="" />
+        </div>
+        <div
+          class="col-start-2 col-end-3 row-start-1 row-end-4 bg-white border-black border-1 rounded-xl flex justify-center items-center relative"
+        >
+          <h4
+            class="absolute top-120 left-10 bg-white p-3 rounded-lg border-1 border-black"
+          >
+            ...start selling a side project!
+          </h4>
+          <img src="image copy 12.png" alt="" />
+        </div>
+        <div class="col-start-2 col-end-3 row-start-4 row-end-5">
+          <h2
+            class="text-6xl bg-white border-black border-1 rounded-xl p-5 mt-5"
+          >
+            Place small bets. <br />That's exciting!
+          </h2>
+        </div>
+      </div>
+    </div>
+    <div class="flex flex-col gap-15 items-center text-center mt-20">
+      <h1 class="text-6xl">
+        Share your work. <br />Someone out there needs it.
+      </h1>
+      <button class="bg-black h-10 w-35 text-white">Start selling</button>
+    </div>
+    <img src="image copy 13.png" alt="" class="w-full h-auto object-cover" />
+    <div class="w-full p-10 flex bg-black text-white">
+      <div class="flex flex-col w-1/2 py-10">
+        <h2 class="text-4xl">
+          Subscribe to get tips and tactics to <br />grow the way you want.
+        </h2>
+        <div class="flex items-center gap-1">
+          <input
+            type="text"
+            placeholder="Your email address"
+            class="w-[65%] border-gray-200"
+          />
+          <button
+            class="bg-rose-300 p-3 py-2 border-l-1 border-black hover:bg-rose-400 transition-colors rounded-lg"
+          >
+            <img src="right-arrow.png" alt="" class="h-5 w-5 object-contain" />
+          </button>
+        </div>
+        <h4>Ⓒ Gumroad, Inc.</h4>
+      </div>
+    </div>
+    <script>
+      const burgerBtn = document.querySelector("#burger-btn");
+      const nav = document.querySelector("#main-nav");
+      const img = burgerBtn.querySelector("img");
+
+      burgerBtn.onclick = () => {
+        const isHidden = nav.classList.toggle("hidden");
+
+        img.src = isHidden
+          ? "https://img.icons8.com/sf-regular/1200/menu.jpg"
+          : "https://img.icons8.com/ios-filled/100/delete-sign.png";
+        document.body.style.overflow = isHidden ? "auto" : "hidden";
+      };
+    </script>
+  </body>
+</html>
